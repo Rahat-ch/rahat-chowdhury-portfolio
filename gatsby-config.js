@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Strata by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    title: 'Rahat Chowdhury Portfolio',
+    author: 'Rahat Chowdhury',
+    description: 'A web development portfolio created with Gatsby.JS',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,15 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    `gatsby-plugin-sharp`,
+    'gatsby-plugin-offline',
+    `gatsby-transformer-sharp`,
+    'gatsby-transformer-json',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: './data/'
+      }
+    }
   ],
 }
