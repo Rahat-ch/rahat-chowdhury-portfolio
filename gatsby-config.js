@@ -26,8 +26,9 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: './data/'
-      }
-    }
+        path: './data/',
+      },
+    },
+    'gatsby-plugin-antd'
   ],
 }

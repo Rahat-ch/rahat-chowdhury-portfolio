@@ -14,19 +14,18 @@ class HomeIndex extends React.Component {
         const siteDescription = "Full Stack Development Portfolio"
 
         return (
-            <Layout>
-                <Helmet>
-                        <title>{siteTitle}</title>
-                        <meta name="description" content={siteDescription} />
-                </Helmet>
+          <Layout>
+            <Helmet>
+              <title>{siteTitle}</title>
+              <meta name="description" content={siteDescription} />
+            </Helmet>
 
-                <div id="main">
-                    <About />
-                    <Projects />
-                    <Contact />
-                </div>
-
-            </Layout>
+            <div id="main">
+              <Projects />
+              <About />
+              <Contact />
+            </div>
+          </Layout>
         )
     }
 }

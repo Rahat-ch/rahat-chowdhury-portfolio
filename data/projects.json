@@ -3,8 +3,8 @@
         "title": "LitLab",
         "slug": "litlab",
         "url": "https://litlab.herokuapp.com/",
-        "repo": "",
-        "image": "./images/litlab.gif",
+        "repo": "https://github.com/Rahat-ch/LitLab",
+        "image": "./images/litlab.png",
         "description": "A concept for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories.",
         "tags": [
             "Handlebars",

@@ -17,7 +17,7 @@ const Projects = () => {
               image {
                 childImageSharp {
                   fluid {
-                    ...GatsbyImageSharpFluid
+                    ...GatsbyImageSharpFluid_tracedSVG
                   }
                 }
               }
@@ -25,12 +25,12 @@ const Projects = () => {
           }
         }
       }
-    `);
+    `)
 
-    const projectIndex = data.allProjectsJson.edges;
+      const projectIndex = data.allProjectsJson.edges;
 
     return (
-        <section id="two">
+        <section id="one">
             <h2>Projects</h2>
                 {projectIndex.map(({ node:item }) => {
                     const title = item.title;
