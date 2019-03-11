@@ -7,7 +7,7 @@ const Aproject = ({ imageData, title, description, url, repo, tags }) => (
   <section id="newSection">
     <div className="myProject">
       <p>
-        <Link to="/">&larr; Back to all Projects</Link>
+        <Link to="/#one">&larr; Back to all Projects</Link>
       </p>
       <h1>{title}</h1>
       <Image fluid={imageData} alt={title} />
