@@ -5,7 +5,7 @@ import Image from 'gatsby-image';
 
 const Aproject = ({ imageData, title, description, url, repo, tags }) => (
   <section id="newSection">
-    <div className="myProject">
+    <div className="myProject" id="projectStart">
       <p>
         <Link to="/#one">&larr; Back to all Projects</Link>
       </p>
