@@ -30,24 +30,26 @@ const Projects = () => {
       const projectIndex = data.allProjectsJson.edges;
 
     return (
-        <section id="one">
-            <h2>Projects</h2>
-                {projectIndex.map(({ node:item }) => {
-                    const title = item.title;
-                    const description = item.description;
-                    const slug = item.slug;
-                    const imageData = item.image.childImageSharp.fluid;
+      <section id="one">
+          <h1 className="projectHeader">Projects</h1>
+        <div className="projectWrapper">
+          {projectIndex.map(({ node: item }) => {
+            const title = item.title
+            const description = item.description
+            const slug = item.slug
+            const imageData = item.image.childImageSharp.fluid
 
-                    return (
-                        <ProjectItem 
-                          title={title}
-                          description={description}  
-                          slug={slug}
-                          imageData={imageData}
-                        />
-                    )
-                } )}
-        </section>
+            return (
+              <ProjectItem
+                title={title}
+                description={description}
+                slug={slug}
+                imageData={imageData}
+              />
+            )
+          })}
+        </div>
+      </section>
     )
 } 
 

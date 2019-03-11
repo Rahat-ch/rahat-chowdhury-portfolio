@@ -10,6 +10,7 @@ export const query = graphql`
              description
              url
              repo
+             tags
              image {
                childImageSharp {
                  fluid {
@@ -28,18 +29,18 @@ const ProjectPage = ({ data }) => {
     const imageData = project.image.childImageSharp.fluid;
     const url = project.url;
     const repo = project.repo;
+    const tags = project.tags
 
     return(
         <Layout>
-            <section>
-                {/* <Aproject
+                <Aproject
                     title={title}
                     description={description}
                     imageData={imageData}
                     url={url}
                     repo={repo}
-                /> */}
-            </section>
+                    tags={tags}
+                />
         </Layout>
     )
 };
