@@ -26,12 +26,12 @@ const Contact = () => (
               />
             </div>
           </div>
+          <ul className="actions">
+            <li>
+              <input type="submit" value="Send" />
+            </li>
+          </ul>
         </form>
-        <ul className="actions">
-          <li>
-            <input type="submit" value="Send" />
-          </li>
-        </ul>
       </div>
     </div>
   </section>
