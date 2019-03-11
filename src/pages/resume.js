@@ -4,7 +4,7 @@ class Resume extends React.Component{
     render(){
         return(
             
-                <embed className="resume" src="/resume.pdf" type="application/pdf" />
+                <iframe className="resume" src="/resume.pdf" type="application/pdf" />
             
         )
     }
