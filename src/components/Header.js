@@ -18,7 +18,7 @@ class Header extends React.Component {
               <h1>
                 <strong>My name is Rahat</strong>. <br /> I am a web
                 developer <br />
-                blogger, rapper, and husband.
+                blogger, rapper, and Pokémon master.
               </h1>
             </div>
             <Navbar />
