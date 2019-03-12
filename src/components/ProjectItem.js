@@ -11,7 +11,7 @@ const ProjectItem = ({ slug, imageData, title, description }) => (
         <Link to={`/${slug}/#projectStart`}>
       <Image fluid={imageData} alt={title} />
     </Link>
-    <p>{description}</p>
+    <p className="projectDescription">{description}</p>
     <p>
             <Link to={`/${slug}/#projectStart`}>View Project &rarr;</Link>
     </p>

@@ -28,7 +28,7 @@ const Contact = () => (
           </div>
           <ul className="actions">
             <li>
-              <input type="submit" value="Send" />
+              <input className="submit" type="submit" value="Send" />
             </li>
           </ul>
         </form>

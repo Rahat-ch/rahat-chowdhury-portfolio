@@ -40,7 +40,7 @@
     {
         "title": "This Portfolio",
         "slug": "portfolio",
-        "url": "https://rahatcodes.com/party_like_its_1999/",
+        "url": "https://rahat.dev",
         "repo": "https://github.com/Rahat-ch/rahat-chowdhury-portfolio",
         "image": "./images/portfolio.png",
         "description": "The website you are visiting now! This is the third iteration of this site, this time making using of Gatsby Js.",

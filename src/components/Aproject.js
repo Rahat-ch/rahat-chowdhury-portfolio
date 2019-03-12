@@ -11,7 +11,7 @@ const Aproject = ({ imageData, title, description, url, repo, tags }) => (
       </p>
       <h1>{title}</h1>
       <Image fluid={imageData} alt={title} />
-      <p>{description}</p>
+      <p className="projectDescription">{description}</p>
 
       <div className="lowerContent">
         <div className="tagWrapper">
