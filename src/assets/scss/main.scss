@@ -576,7 +576,7 @@ html {
 				}
 
 				&:before {
-					background: url('images/overlay.png'), url('images/overlay.png');
+					// background: url('images/overlay.png'), url('images/overlay.png');
 					opacity: 1.0;
 				}
 			}
@@ -983,13 +983,13 @@ html {
 		@include vendor('flex-direction', 'column');
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
-		background-color:		_palette(accent2, bg);
+		// background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
 		background-image:		url('images/overlay.png'),			url('../images/ny.jpeg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
-		color: _palette(accent2, fg);
+		// color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
 		padding: ($size-header-pad * 2) $size-header-pad;
