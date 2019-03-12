@@ -1579,12 +1579,15 @@ html {
 @media only screen and (max-width: 1000px) {
 
 .tagWrapper{
-	display:none;
+	display: none;
 }
 
 .buttonWrapper{
 	display: flex;
 	flex-direction: column;
+	margin: 0;
+	margin-bottom: 1rem;
+	
 }
 
 .myProject{
