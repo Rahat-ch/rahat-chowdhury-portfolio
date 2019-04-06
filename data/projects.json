@@ -1,25 +1,55 @@
 [
     {
-        "title": "LitLab",
-        "slug": "litlab",
-        "url": "https://litlab.herokuapp.com/",
-        "repo": "https://github.com/Rahat-ch/LitLab",
-        "image": "./images/litlab.png",
-        "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories.",
+        "title": "Project Seed",
+        "slug": "projectseed",
+        "url": "https://projectseeddev.herokuapp.com/",
+        "repo": "https://github.com/Rahat-ch/project_seed",
+        "image": "./images/projectseed.png",
+        "description": "Project Seed is an open-source, friendly, online community for new developers who want to work on awesome projects, start a team or create an exciting idea for a new application! Demo login information: username: demo_user password: hello123",
         "tags": [
-            "Handlebars",
-            "CSS",
-            "Bootstrap",
-            "JavaScript",
+            "React",
+            "Semantic UI",
+            "MongoDB",
+            "Express",
             "Node JS",
-            "Jquery",
-            "Particles JS",
-            "Sequilize",
-            "MySQL",
-            "Passport JS",
-            "Socket.io"
+            "Apollo",
+            "GraphQL"
         ]
     },
+     {
+         "title": "LitLab",
+         "slug": "litlab",
+         "url": "https://litlab.herokuapp.com/",
+         "repo": "https://github.com/Rahat-ch/LitLab",
+         "image": "./images/litlab.png",
+         "description": "A concept full stack application for a real time online collaboration platform for writers. Chat and collaborate with other creative writers and make amazing stories all in real time! Demo login information: username: anotherdemo@gmail.com password: blahblah",
+         "tags": [
+             "Handlebars",
+             "CSS",
+             "Bootstrap",
+             "JavaScript",
+             "Node JS",
+             "Jquery",
+             "Particles JS",
+             "Sequilize",
+             "MySQL",
+             "Passport JS",
+             "Socket.io"
+         ]
+     },
+     {
+         "title": "Evie (Hack Mental Health Yale Data Track Winner)",
+         "slug": "evie",
+         "url": "https://www.youtube.com/watch?v=yylfHb4sC-Q",
+         "repo": "https://github.com/Rahat-ch/evie",
+         "image": "./images/evie.png",
+         "description": "Evie is a patient-friendly chrome extenstion, designed to track the emotional values of websites visited.",
+         "tags": [
+             "JavaScript",
+             "Node Js",
+             "NPM Sentiment"
+         ]
+     },
     {
       "title": "Party Like it's 1999",
       "slug": "party99",
@@ -50,20 +80,6 @@
             "React",
             "Gatsby JS",
             "GraphQL"
-        ]
-    },
-    {
-        "title": "Bamazon",
-        "slug": "bamazon",
-        "url": "https://drive.google.com/file/d/1shRi-XFYP3JsGvndq9zKP1OuQ4C65Shn/view",
-        "repo": "https://github.com/Rahat-ch/Bamazon",
-        "image": "./images/bamazon.png",
-        "description": "An Amazon store in your Command Line! This app utilizes Node and MySQL to bring you a customer and manager interface for an Amazon Store.",
-        "tags": [
-            "Node JS",
-            "MySQL",
-            "Inquirer",
-            "CLI-Table"
         ]
     }
 ]
