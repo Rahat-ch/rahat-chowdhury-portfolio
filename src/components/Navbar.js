@@ -23,7 +23,7 @@ class Navbar extends React.Component {
               </Link>
               <a
                 className="navlink"
-                href="https://blog.rahatcodes.com/"
+                href="https://rahatcodes.com/"
                 target="_blank"
               >
                 <li className="navItem">
