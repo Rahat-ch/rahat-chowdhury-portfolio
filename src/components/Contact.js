@@ -5,7 +5,7 @@ const Contact = () => (
     <h1>Get In Touch</h1>
     <p>
       Feel free to get in touch for any questions, projects, or employment
-      opportunities.
+      opportunities. Use the form below or email me directly at <a href="mailto:rahat@rahatcodes.com">rahat@rahatcodes.com</a>
     </p>
     <div className="row">
       <div className="8u 12u$(small)">
